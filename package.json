@@ -8,7 +8,7 @@
         "express"
     ],
     "author": "José Barata",
-    "license": "ISC",
+    "license": "MIT",
     "scripts": {
         "dev": "nodemon --exec node_modules/.bin/ts-node src/server.ts",
         "prod": "npm run build && node ./build/server.js",
